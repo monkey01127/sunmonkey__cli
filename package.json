@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./index.js",
-    "lint": "eslint ."
+    "lint": "eslint --ext .js lib"
   },
   "author": "monkey",
   "license": "ISC",
@@ -28,6 +28,7 @@
     "@babel/node": "^7.13.13",
     "@babel/preset-env": "^7.14.0",
     "eslint": "^7.26.0",
+    "eslint-config-juneyaoairfe": "^1.1.3",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
